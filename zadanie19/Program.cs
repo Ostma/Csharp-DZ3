@@ -33,10 +33,10 @@ else
 {
     if (PolyTest(num) == 1)
     {
-        PrintData("палиндром", "");
+        PrintData(num.ToString(), " - палиндром");
     }
     else
     {
-        PrintData("не палиндром", "");
+        PrintData(num.ToString(), " - не палиндром");
     }
 }
